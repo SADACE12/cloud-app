@@ -64,6 +64,5 @@ jobs:
         run: |
           sleep 5
           docker ps
-          curl -s http://localhost:5000 | tee response.html
-          grep -q "Cloud Technologies Laboratory" response.html
+          curl -fs http://localhost:5000 | tee response.html
           echo "Deployment successful"
