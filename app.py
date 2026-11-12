@@ -6,8 +6,8 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return """
-    <h1>Cloud</h1>
-    <p>My first Docker application</p>
+    <h1>Cloudымваывмаывамывам</h1>
+    <p>My first Docker applicывмавымаывмаымвамываation</p>
     """
 
 
